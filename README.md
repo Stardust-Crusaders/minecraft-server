@@ -1,7 +1,9 @@
 # SETUP
 
 version: 1.21.1
+
 modloader: NeoForge
+
 mods:
 - JEI
 - Journey map
