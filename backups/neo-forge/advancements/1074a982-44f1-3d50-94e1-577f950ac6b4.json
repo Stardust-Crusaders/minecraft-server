@@ -5750,12 +5750,6 @@
     },
     "done": true
   },
-  "minecraft:adventure/hero_of_the_village": {
-    "criteria": {
-      "hero_of_the_village": "2025-04-26 20:11:27 +0000"
-    },
-    "done": true
-  },
   "create:recipes/building_blocks/cut_veridium_wall_from_stone_types_veridium_stonecutting": {
     "criteria": {
       "has_stone_types_veridium": "2025-04-26 19:28:40 +0000"
@@ -5798,12 +5792,6 @@
     },
     "done": true
   },
-  "create:windmill_maxed": {
-    "criteria": {
-      "0": "2025-04-26 19:51:50 +0000"
-    },
-    "done": true
-  },
   "create:recipes/building_blocks/small_veridium_brick_slab_from_stone_types_veridium_stonecutting": {
     "criteria": {
       "has_stone_types_veridium": "2025-04-26 19:28:40 +0000"
@@ -5816,15 +5804,51 @@
     },
     "done": true
   },
+  "create:recipes/building_blocks/veridium_pillar_from_stone_types_veridium_stonecutting": {
+    "criteria": {
+      "has_stone_types_veridium": "2025-04-26 19:28:40 +0000"
+    },
+    "done": true
+  },
+  "create:windmill_maxed": {
+    "criteria": {
+      "0": "2025-04-26 19:51:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/hero_of_the_village": {
+    "criteria": {
+      "hero_of_the_village": "2025-04-26 20:11:27 +0000"
+    },
+    "done": true
+  },
   "create:recipes/building_blocks/polished_cut_deepslate_slab_recycling": {
     "criteria": {
       "has_polished_cut_deepslate_slab": "2025-04-26 20:24:47 +0000"
     },
     "done": true
   },
-  "create:recipes/building_blocks/veridium_pillar_from_stone_types_veridium_stonecutting": {
+  "minecraft:recipes/misc/lapis_lazuli": {
     "criteria": {
-      "has_stone_types_veridium": "2025-04-26 19:28:40 +0000"
+      "has_lapis_block": "2025-05-09 18:11:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/whos_the_pillager_now": {
+    "criteria": {
+      "kill_pillager": "2025-05-09 19:37:49 +0000"
+    },
+    "done": true
+  },
+  "create:crusher_maxed_0000": {
+    "criteria": {
+      "0": "2025-05-09 21:27:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/carrot_on_a_stick": {
+    "criteria": {
+      "has_carrot": "2025-05-09 21:14:01 +0000"
     },
     "done": true
   },
