@@ -6522,5 +6522,143 @@
     },
     "done": true
   },
+  "create:recipes/building_blocks/cut_scorchia_brick_slab_from_stone_types_scorchia_stonecutting": {
+    "criteria": {
+      "has_stone_types_scorchia": "2025-05-09 22:35:33 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/small_scorchia_bricks_from_stone_types_scorchia_stonecutting": {
+    "criteria": {
+      "has_stone_types_scorchia": "2025-05-09 22:35:33 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_scorchia_stairs_from_stone_types_scorchia_stonecutting": {
+    "criteria": {
+      "has_stone_types_scorchia": "2025-05-09 22:35:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/magma_cream": {
+    "criteria": {
+      "has_blaze_powder": "2025-05-09 22:21:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/brew_potion": {
+    "criteria": {
+      "potion": "2025-05-09 22:25:47 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_scorchia_from_stone_types_scorchia_stonecutting": {
+    "criteria": {
+      "has_stone_types_scorchia": "2025-05-09 22:35:33 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_scorchia_wall_from_stone_types_scorchia_stonecutting": {
+    "criteria": {
+      "has_stone_types_scorchia": "2025-05-09 22:35:33 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_scorchia_bricks_from_stone_types_scorchia_stonecutting": {
+    "criteria": {
+      "has_stone_types_scorchia": "2025-05-09 22:35:33 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_scorchia_brick_wall_from_stone_types_scorchia_stonecutting": {
+    "criteria": {
+      "has_stone_types_scorchia": "2025-05-09 22:35:33 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/small_scorchia_brick_slab_from_stone_types_scorchia_stonecutting": {
+    "criteria": {
+      "has_stone_types_scorchia": "2025-05-09 22:35:33 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/small_scorchia_brick_stairs_from_stone_types_scorchia_stonecutting": {
+    "criteria": {
+      "has_stone_types_scorchia": "2025-05-09 22:35:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/fire_charge": {
+    "criteria": {
+      "has_blaze_powder": "2025-05-09 22:21:44 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_scorchia_brick_stairs_from_stone_types_scorchia_stonecutting": {
+    "criteria": {
+      "has_stone_types_scorchia": "2025-05-09 22:35:33 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_scorchia_slab_from_stone_types_scorchia_stonecutting": {
+    "criteria": {
+      "has_stone_types_scorchia": "2025-05-09 22:35:33 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/polished_cut_scorchia_stairs_from_stone_types_scorchia_stonecutting": {
+    "criteria": {
+      "has_stone_types_scorchia": "2025-05-09 22:35:33 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/polished_cut_scorchia_wall_from_stone_types_scorchia_stonecutting": {
+    "criteria": {
+      "has_stone_types_scorchia": "2025-05-09 22:35:33 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/scorchia_from_stone_types_scorchia_stonecutting": {
+    "criteria": {
+      "has_stone_types_scorchia": "2025-05-09 22:35:33 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/polished_cut_scorchia_from_stone_types_scorchia_stonecutting": {
+    "criteria": {
+      "has_stone_types_scorchia": "2025-05-09 22:35:33 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/layered_scorchia_from_stone_types_scorchia_stonecutting": {
+    "criteria": {
+      "has_stone_types_scorchia": "2025-05-09 22:35:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/ender_eye": {
+    "criteria": {
+      "has_blaze_powder": "2025-05-09 22:21:44 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/small_scorchia_brick_wall_from_stone_types_scorchia_stonecutting": {
+    "criteria": {
+      "has_stone_types_scorchia": "2025-05-09 22:35:33 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/scorchia_pillar_from_stone_types_scorchia_stonecutting": {
+    "criteria": {
+      "has_stone_types_scorchia": "2025-05-09 22:35:33 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/polished_cut_scorchia_slab_from_stone_types_scorchia_stonecutting": {
+    "criteria": {
+      "has_stone_types_scorchia": "2025-05-09 22:35:33 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3955
 }

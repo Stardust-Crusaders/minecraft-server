@@ -793,12 +793,14 @@
       "minecraft:piglin": "2025-04-21 20:41:58 +0000",
       "minecraft:breeze": "2025-05-09 21:11:30 +0000",
       "minecraft:enderman": "2025-05-09 19:55:09 +0000",
+      "minecraft:silverfish": "2025-05-09 22:01:00 +0000",
       "minecraft:magma_cube": "2025-04-21 20:06:02 +0000",
       "minecraft:spider": "2025-04-19 14:57:39 +0000",
       "minecraft:zombie": "2025-04-19 14:58:22 +0000",
       "minecraft:creeper": "2025-04-19 17:13:48 +0000",
       "minecraft:drowned": "2025-04-24 22:19:51 +0000",
-      "minecraft:zombie_villager": "2025-04-24 18:44:57 +0000"
+      "minecraft:zombie_villager": "2025-04-24 18:44:57 +0000",
+      "minecraft:slime": "2025-05-09 22:14:24 +0000"
     },
     "done": false
   },
@@ -5465,9 +5467,27 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/emerald": {
+    "criteria": {
+      "has_emerald_block": "2025-05-09 22:11:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/obtain_armor": {
+    "criteria": {
+      "iron_chestplate": "2025-05-09 22:54:03 +0000"
+    },
+    "done": true
+  },
   "minecraft:adventure/minecraft_trials_edition": {
     "criteria": {
       "minecraft_trials_edition": "2025-05-09 21:11:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/deflect_arrow": {
+    "criteria": {
+      "deflected_projectile": "2025-05-09 22:02:09 +0000"
     },
     "done": true
   },
@@ -5477,15 +5497,51 @@
     },
     "done": true
   },
+  "minecraft:adventure/revaulting": {
+    "criteria": {
+      "revaulting": "2025-05-09 22:04:38 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/mace": {
     "criteria": {
       "has_breeze_rod": "2025-05-09 21:11:31 +0000"
     },
     "done": true
   },
+  "minecraft:recipes/tools/lead": {
+    "criteria": {
+      "has_slime_ball": "2025-05-09 22:14:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/flow_armor_trim_smithing_template": {
+    "criteria": {
+      "has_flow_armor_trim_smithing_template": "2025-05-09 22:04:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/sticky_piston": {
+    "criteria": {
+      "has_slime_ball": "2025-05-09 22:14:25 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/wind_charge": {
     "criteria": {
       "has_breeze_rod": "2025-05-09 21:11:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/flow_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2025-05-09 22:04:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/slime_block": {
+    "criteria": {
+      "has_slime_ball": "2025-05-09 22:14:25 +0000"
     },
     "done": true
   },
