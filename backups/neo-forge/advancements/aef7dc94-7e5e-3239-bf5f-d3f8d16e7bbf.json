@@ -7333,15 +7333,213 @@
     },
     "done": true
   },
+  "create:track_crafting_factory": {
+    "criteria": {
+      "0": "2025-05-17 17:06:48 +0000"
+    },
+    "done": true
+  },
   "create:train_roadkill": {
     "criteria": {
       "0": "2025-05-17 18:20:50 +0000"
     },
     "done": true
   },
-  "create:track_crafting_factory": {
+  "minecraft:recipes/decorations/oak_hanging_sign": {
     "criteria": {
-      "0": "2025-05-17 17:06:48 +0000"
+      "has_stripped_logs": "2025-05-27 17:38:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stripped_oak_wood": {
+    "criteria": {
+      "has_log": "2025-05-27 17:38:35 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/appliances/cardboard_helmet": {
+    "criteria": {
+      "has_item": "2025-05-27 18:46:50 +0000"
+    },
+    "done": true
+  },
+  "create:cardboard": {
+    "criteria": {
+      "0": "2025-05-27 18:46:50 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/logistics/package_frogport": {
+    "criteria": {
+      "has_item": "2025-05-27 18:46:50 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/materials/cardboard_from_bound_block": {
+    "criteria": {
+      "has_item": "2025-05-27 18:46:50 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/logistics/redstone_requester": {
+    "criteria": {
+      "has_item": "2025-05-27 18:46:50 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/logistics/stock_link": {
+    "criteria": {
+      "has_item": "2025-05-27 18:46:50 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/appliances/name_tag": {
+    "criteria": {
+      "has_item": "2025-05-27 18:46:50 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/appliances/cardboard_chestplate": {
+    "criteria": {
+      "has_item": "2025-05-27 18:46:50 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/materials/cardboard_from_block": {
+    "criteria": {
+      "has_item": "2025-05-27 18:46:50 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/materials/bound_cardboard_block": {
+    "criteria": {
+      "has_item": "2025-05-27 18:46:50 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/appliances/book": {
+    "criteria": {
+      "has_item": "2025-05-27 18:46:50 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/materials/cardboard_block": {
+    "criteria": {
+      "has_item": "2025-05-27 18:46:50 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/appliances/cardboard_boots": {
+    "criteria": {
+      "has_item": "2025-05-27 18:46:50 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/appliances/cardboard_leggings": {
+    "criteria": {
+      "has_item": "2025-05-27 18:46:50 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/logistics/packager": {
+    "criteria": {
+      "has_item": "2025-05-27 18:46:50 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/appliances/item_frame": {
+    "criteria": {
+      "has_item": "2025-05-27 18:46:50 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/logistics/stock_ticker": {
+    "criteria": {
+      "has_item": "2025-05-27 18:46:50 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/appliances/cardboard_sword": {
+    "criteria": {
+      "has_item": "2025-05-27 18:46:50 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/logistics/repackager_from_conversion": {
+    "criteria": {
+      "has_item": "2025-05-27 18:49:39 +0000"
+    },
+    "done": true
+  },
+  "create:packager": {
+    "criteria": {
+      "0": "2025-05-27 19:01:28 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/logistics/factory_gauge": {
+    "criteria": {
+      "has_item": "2025-05-27 19:36:00 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/logistics/stock_link_clear": {
+    "criteria": {
+      "has_item": "2025-05-27 19:36:00 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/logistics/stock_ticker_clear": {
+    "criteria": {
+      "has_item": "2025-05-27 19:36:01 +0000"
+    },
+    "done": true
+  },
+  "create:stock_ticker": {
+    "criteria": {
+      "0": "2025-05-27 19:37:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sea_lantern": {
+    "criteria": {
+      "has_prismarine_crystals": "2025-05-27 19:59:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_stairs_from_mossy_cobblestone_stonecutting": {
+    "criteria": {
+      "has_mossy_cobblestone": "2025-05-27 21:19:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_slab": {
+    "criteria": {
+      "has_mossy_cobblestone": "2025-05-27 21:19:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_stairs": {
+    "criteria": {
+      "has_mossy_cobblestone": "2025-05-27 21:19:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/mossy_cobblestone_wall": {
+    "criteria": {
+      "has_mossy_cobblestone": "2025-05-27 21:19:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_slab_from_mossy_cobblestone_stonecutting": {
+    "criteria": {
+      "has_mossy_cobblestone": "2025-05-27 21:19:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/mossy_cobblestone_wall_from_mossy_cobblestone_stonecutting": {
+    "criteria": {
+      "has_mossy_cobblestone": "2025-05-27 21:19:20 +0000"
     },
     "done": true
   },

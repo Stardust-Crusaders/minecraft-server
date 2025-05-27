@@ -2031,12 +2031,6 @@
     },
     "done": true
   },
-  "create:recipes/misc/blasting/copper_ingot_from_crushed": {
-    "criteria": {
-      "has_item": "2025-04-27 14:23:26 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/misc/gold_ingot_from_nuggets": {
     "criteria": {
       "has_gold_nugget": "2025-04-27 14:18:06 +0000"
@@ -2046,6 +2040,12 @@
   "minecraft:recipes/brewing/golden_carrot": {
     "criteria": {
       "has_gold_nugget": "2025-04-27 14:18:06 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/blasting/copper_ingot_from_crushed": {
+    "criteria": {
+      "has_item": "2025-04-27 14:23:26 +0000"
     },
     "done": true
   },
