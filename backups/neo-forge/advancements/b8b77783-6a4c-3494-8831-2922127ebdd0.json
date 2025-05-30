@@ -504,7 +504,9 @@
       "bread": "2025-04-24 20:57:17 +0000",
       "cooked_chicken": "2025-05-07 22:36:34 +0000",
       "cooked_mutton": "2025-04-25 23:10:34 +0000",
+      "salmon": "2025-05-30 19:24:11 +0000",
       "cooked_beef": "2025-04-25 23:01:28 +0000",
+      "baked_potato": "2025-05-30 19:51:53 +0000",
       "pumpkin_pie": "2025-04-25 21:28:25 +0000",
       "carrot": "2025-05-07 22:29:39 +0000"
     },
@@ -680,11 +682,13 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:cave_spider": "2025-05-30 20:12:50 +0000",
       "minecraft:skeleton": "2025-04-24 21:17:05 +0000",
       "minecraft:phantom": "2025-04-24 22:16:10 +0000",
       "minecraft:enderman": "2025-04-25 22:55:54 +0000",
       "minecraft:spider": "2025-04-24 21:15:40 +0000",
-      "minecraft:zombie": "2025-04-24 21:17:49 +0000"
+      "minecraft:zombie": "2025-04-24 21:17:49 +0000",
+      "minecraft:drowned": "2025-05-30 19:16:35 +0000"
     },
     "done": false
   },
@@ -2065,6 +2069,24 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/nether_wart_block": {
+    "criteria": {
+      "has_nether_wart": "2025-05-27 21:24:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_nether_bricks": {
+    "criteria": {
+      "has_nether_wart": "2025-05-27 21:24:42 +0000"
+    },
+    "done": true
+  },
+  "create:stock_ticker": {
+    "criteria": {
+      "0": "2025-05-27 21:26:28 +0000"
+    },
+    "done": true
+  },
   "create:recipes/building_blocks/granite_from_stone_types_granite_stonecutting": {
     "criteria": {
       "has_stone_types_granite": "2025-05-27 21:31:12 +0000"
@@ -2107,12 +2129,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/nether_wart_block": {
-    "criteria": {
-      "has_nether_wart": "2025-05-27 21:24:42 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/granite_wall_from_granite_stonecutting": {
     "criteria": {
       "has_granite": "2025-05-27 21:31:12 +0000"
@@ -2140,12 +2156,6 @@
   "create:recipes/building_blocks/polished_cut_granite_slab_from_stone_types_granite_stonecutting": {
     "criteria": {
       "has_stone_types_granite": "2025-05-27 21:31:12 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/red_nether_bricks": {
-    "criteria": {
-      "has_nether_wart": "2025-05-27 21:24:42 +0000"
     },
     "done": true
   },
@@ -2245,21 +2255,111 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/polished_granite_stairs_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2025-05-27 21:31:12 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/dispenser": {
     "criteria": {
       "has_bow": "2025-05-27 21:38:16 +0000"
     },
     "done": true
   },
-  "create:stock_ticker": {
+  "minecraft:recipes/food/cooked_cod_from_smoking": {
     "criteria": {
-      "0": "2025-05-27 21:26:28 +0000"
+      "has_cod": "2025-05-30 19:05:15 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/polished_granite_stairs_from_granite_stonecutting": {
+  "minecraft:recipes/food/cooked_cod_from_campfire_cooking": {
     "criteria": {
-      "has_granite": "2025-05-27 21:31:12 +0000"
+      "has_cod": "2025-05-30 19:05:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod": {
+    "criteria": {
+      "has_cod": "2025-05-30 19:05:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/nether_brick": {
+    "criteria": {
+      "has_netherrack": "2025-05-30 19:27:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/smoker": {
+    "criteria": {
+      "has_furnace": "2025-05-30 19:32:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/white_dye": {
+    "criteria": {
+      "has_bone_meal": "2025-05-30 19:37:43 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/tree_fertilizer": {
+    "criteria": {
+      "has_item": "2025-05-30 19:37:43 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/appliances/tree_fertilizer": {
+    "criteria": {
+      "has_item": "2025-05-30 19:37:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bone_block": {
+    "criteria": {
+      "has_bone_meal": "2025-05-30 19:37:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bookshelf": {
+    "criteria": {
+      "has_book": "2025-05-30 19:59:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/shoot_arrow": {
+    "criteria": {
+      "shot_arrow": "2025-05-30 20:31:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/lectern": {
+    "criteria": {
+      "has_book": "2025-05-30 19:59:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_bookshelf": {
+    "criteria": {
+      "has_book": "2025-05-30 19:59:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/writable_book": {
+    "criteria": {
+      "has_book": "2025-05-30 19:59:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/trade": {
+    "criteria": {
+      "traded": "2025-05-30 20:10:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/fermented_spider_eye": {
+    "criteria": {
+      "has_spider_eye": "2025-05-30 19:55:43 +0000"
     },
     "done": true
   },
