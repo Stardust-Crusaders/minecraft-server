@@ -730,6 +730,7 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "cooked_porkchop": "2025-05-30 16:18:56 +0000",
       "apple": "2025-04-26 21:18:49 +0000",
       "bread": "2025-04-21 21:34:33 +0000",
       "cooked_chicken": "2025-04-27 12:43:21 +0000",
@@ -2240,9 +2241,11 @@
     "criteria": {
       "minecraft:crimson_forest": "2025-04-21 22:54:14 +0000",
       "minecraft:soul_sand_valley": "2025-04-21 22:53:13 +0000",
-      "minecraft:basalt_deltas": "2025-04-21 22:51:01 +0000"
+      "minecraft:nether_wastes": "2025-05-30 17:09:09 +0000",
+      "minecraft:basalt_deltas": "2025-04-21 22:51:01 +0000",
+      "minecraft:warped_forest": "2025-05-30 17:09:37 +0000"
     },
-    "done": false
+    "done": true
   },
   "minecraft:recipes/decorations/soul_torch": {
     "criteria": {
