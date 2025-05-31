@@ -791,6 +791,7 @@
       "minecraft:husk": "2025-05-09 21:12:03 +0000",
       "minecraft:ghast": "2025-05-30 18:22:22 +0000",
       "minecraft:hoglin": "2025-04-24 18:32:36 +0000",
+      "minecraft:shulker": "2025-05-31 15:16:37 +0000",
       "minecraft:cave_spider": "2025-05-09 21:21:16 +0000",
       "minecraft:piglin": "2025-04-21 20:41:58 +0000",
       "minecraft:breeze": "2025-05-09 21:11:30 +0000",
@@ -1067,10 +1068,12 @@
       "cooked_chicken": "2025-04-20 14:20:38 +0000",
       "cooked_mutton": "2025-04-19 15:20:44 +0000",
       "potato": "2025-05-09 20:08:00 +0000",
+      "cooked_cod": "2025-05-31 13:05:28 +0000",
       "sweet_berries": "2025-04-19 17:55:42 +0000",
       "cooked_beef": "2025-04-19 17:08:48 +0000",
       "baked_potato": "2025-05-30 23:24:46 +0000",
-      "melon_slice": "2025-04-21 18:18:43 +0000"
+      "melon_slice": "2025-04-21 18:18:43 +0000",
+      "carrot": "2025-05-31 21:06:20 +0000"
     },
     "done": false
   },
@@ -3314,9 +3317,10 @@
   },
   "create:wrench_goggles": {
     "criteria": {
+      "0": "2025-05-31 22:07:36 +0000",
       "1": "2025-04-21 17:45:16 +0000"
     },
-    "done": false
+    "done": true
   },
   "minecraft:story/form_obsidian": {
     "criteria": {
@@ -6305,39 +6309,15 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/green_dye": {
+    "criteria": {
+      "has_cactus": "2025-05-31 02:46:35 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/cyan_dye": {
     "criteria": {
       "has_green_dye": "2025-05-31 02:48:09 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/dye_lime_wool": {
-    "criteria": {
-      "has_needed_dye": "2025-05-31 03:08:16 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/black_carpet": {
-    "criteria": {
-      "has_black_wool": "2025-05-31 03:08:32 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/lime_candle": {
-    "criteria": {
-      "has_lime_dye": "2025-05-31 03:08:16 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/black_banner": {
-    "criteria": {
-      "has_black_wool": "2025-05-31 03:08:32 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/dye_lime_bed": {
-    "criteria": {
-      "has_needed_dye": "2025-05-31 03:08:16 +0000"
     },
     "done": true
   },
@@ -6347,33 +6327,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/green_dye": {
-    "criteria": {
-      "has_cactus": "2025-05-31 02:46:35 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/dye_lime_carpet": {
-    "criteria": {
-      "has_needed_dye": "2025-05-31 03:08:16 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/green_candle": {
     "criteria": {
       "has_green_dye": "2025-05-31 02:48:09 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/black_bed": {
-    "criteria": {
-      "has_black_wool": "2025-05-31 03:08:32 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/sea_lantern": {
-    "criteria": {
-      "has_prismarine_crystals": "2025-05-31 03:04:30 +0000"
     },
     "done": true
   },
@@ -6386,6 +6342,252 @@
   "minecraft:recipes/building_blocks/dye_green_wool": {
     "criteria": {
       "has_needed_dye": "2025-05-31 02:48:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sea_lantern": {
+    "criteria": {
+      "has_prismarine_crystals": "2025-05-31 03:04:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_lime_wool": {
+    "criteria": {
+      "has_needed_dye": "2025-05-31 03:08:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/lime_candle": {
+    "criteria": {
+      "has_lime_dye": "2025-05-31 03:08:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_lime_bed": {
+    "criteria": {
+      "has_needed_dye": "2025-05-31 03:08:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_lime_carpet": {
+    "criteria": {
+      "has_needed_dye": "2025-05-31 03:08:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_carpet": {
+    "criteria": {
+      "has_black_wool": "2025-05-31 03:08:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_banner": {
+    "criteria": {
+      "has_black_wool": "2025-05-31 03:08:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_bed": {
+    "criteria": {
+      "has_black_wool": "2025-05-31 03:08:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/fishy_business": {
+    "criteria": {
+      "pufferfish": "2025-05-31 12:06:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/mushroom_stew": {
+    "criteria": {
+      "has_bowl": "2025-05-31 12:06:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_salmon": {
+    "criteria": {
+      "has_salmon": "2025-05-31 12:08:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_salmon_from_smoking": {
+    "criteria": {
+      "has_salmon": "2025-05-31 12:08:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_salmon_from_campfire_cooking": {
+    "criteria": {
+      "has_salmon": "2025-05-31 12:08:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/magma_cream": {
+    "criteria": {
+      "has_blaze_powder": "2025-05-31 12:15:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/fire_charge": {
+    "criteria": {
+      "has_blaze_powder": "2025-05-31 12:15:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/ender_eye": {
+    "criteria": {
+      "has_blaze_powder": "2025-05-31 12:15:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/end_crystal": {
+    "criteria": {
+      "has_ender_eye": "2025-05-31 12:18:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/ender_chest": {
+    "criteria": {
+      "has_ender_eye": "2025-05-31 12:18:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/breed_an_animal": {
+    "criteria": {
+      "bred": "2025-05-31 12:21:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/bred_all_animals": {
+    "criteria": {
+      "minecraft:chicken": "2025-05-31 12:21:40 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/misc/sentry_armor_trim_smithing_template": {
+    "criteria": {
+      "has_sentry_armor_trim_smithing_template": "2025-05-31 12:46:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/sentry_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2025-05-31 12:46:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/allay_deliver_item_to_player": {
+    "criteria": {
+      "allay_deliver_item_to_player": "2025-05-31 12:56:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/find_end_city": {
+    "criteria": {
+      "in_city": "2025-05-31 14:55:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/shulker_box": {
+    "criteria": {
+      "has_shulker_shell": "2025-05-31 15:16:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purpur_slab": {
+    "criteria": {
+      "has_purpur_block": "2025-05-31 16:05:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purpur_pillar": {
+    "criteria": {
+      "has_purpur_block": "2025-05-31 16:05:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purpur_stairs": {
+    "criteria": {
+      "has_purpur_block": "2025-05-31 16:05:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purpur_pillar_from_purpur_block_stonecutting": {
+    "criteria": {
+      "has_purpur_block": "2025-05-31 16:05:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purpur_stairs_from_purpur_block_stonecutting": {
+    "criteria": {
+      "has_purpur_block": "2025-05-31 16:05:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purpur_slab_from_purpur_block_stonecutting": {
+    "criteria": {
+      "has_purpur_block": "2025-05-31 16:05:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/brew_potion": {
+    "criteria": {
+      "potion": "2025-05-31 16:26:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/elytra": {
+    "criteria": {
+      "elytra": "2025-05-31 16:27:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_from_smelting_deepslate_redstone_ore": {
+    "criteria": {
+      "has_deepslate_redstone_ore": "2025-05-31 21:03:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_from_blasting_deepslate_redstone_ore": {
+    "criteria": {
+      "has_deepslate_redstone_ore": "2025-05-31 21:03:25 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/furnace_minecart_from_contraption_cart": {
+    "criteria": {
+      "has_item": "2025-05-31 22:07:19 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/minecart_from_contraption_cart": {
+    "criteria": {
+      "has_item": "2025-05-31 22:07:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/trapped_chest": {
+    "criteria": {
+      "has_tripwire_hook": "2025-05-31 22:26:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/flower_banner_pattern": {
+    "criteria": {
+      "has_oxeye_daisy": "2025-05-31 22:36:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_oxeye_daisy": {
+    "criteria": {
+      "has_oxeye_daisy": "2025-05-31 22:36:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/silk_touch_nest": {
+    "criteria": {
+      "silk_touch_nest": "2025-05-31 22:50:23 +0000"
     },
     "done": true
   },
