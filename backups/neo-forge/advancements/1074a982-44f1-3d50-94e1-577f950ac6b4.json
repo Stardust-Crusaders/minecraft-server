@@ -393,6 +393,7 @@
       "minecraft:shulker": "2025-05-30 21:09:47 +0000",
       "minecraft:cave_spider": "2025-05-27 22:22:29 +0000",
       "minecraft:piglin": "2025-05-26 23:31:51 +0000",
+      "minecraft:guardian": "2025-06-03 23:35:07 +0000",
       "minecraft:vindicator": "2025-04-26 20:07:48 +0000",
       "minecraft:breeze": "2025-05-28 20:15:56 +0000",
       "minecraft:enderman": "2025-04-20 23:22:59 +0000",
@@ -8047,6 +8048,156 @@
   "create:recipes/building_blocks/vertical_framed_glass_pane": {
     "criteria": {
       "has_ingredient": "2025-06-02 20:36:58 +0000"
+    },
+    "done": true
+  },
+  "create_enchantment_industry:root": {
+    "criteria": {
+      "0": "2025-06-02 21:20:49 +0000"
+    },
+    "done": true
+  },
+  "create_enchantment_industry:recipes/mechanical_grindstone": {
+    "criteria": {
+      "andesite": "2025-06-02 22:17:56 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/appliances/linked_controller": {
+    "criteria": {
+      "has_item": "2025-06-02 22:34:53 +0000"
+    },
+    "done": true
+  },
+  "create:portable_storage_interface": {
+    "criteria": {
+      "0": "2025-06-02 22:56:16 +0000"
+    },
+    "done": true
+  },
+  "create_enchantment_industry:spirit_taking": {
+    "criteria": {
+      "0": "2025-06-03 20:21:26 +0000"
+    },
+    "done": true
+  },
+  "create_enchantment_industry:recipes/printer": {
+    "criteria": {
+      "brass": "2025-06-03 20:34:57 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/materials/brass_ingot_from_decompacting": {
+    "criteria": {
+      "has_item": "2025-06-03 21:03:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stripped_birch_wood": {
+    "criteria": {
+      "has_log": "2025-06-03 21:46:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/birch_hanging_sign": {
+    "criteria": {
+      "has_stripped_logs": "2025-06-03 21:46:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/prismarine_wall_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine": "2025-06-03 23:34:50 +0000"
+    },
+    "done": true
+  },
+  "create:potato_cannon": {
+    "criteria": {
+      "0": "2025-06-03 22:34:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_brick_stairs": {
+    "criteria": {
+      "has_prismarine_bricks": "2025-06-03 23:34:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/prismarine_wall": {
+    "criteria": {
+      "has_prismarine": "2025-06-03 23:34:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_slab_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine": "2025-06-03 23:34:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_brick_slab_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine_brick": "2025-06-03 23:34:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_black_carpet": {
+    "criteria": {
+      "has_needed_dye": "2025-06-03 22:52:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_stairs_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine": "2025-06-03 23:34:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_black_bed": {
+    "criteria": {
+      "has_needed_dye": "2025-06-03 22:52:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_brick_stairs_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine_brick": "2025-06-03 23:34:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_black_dye": "2025-06-03 22:52:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_stairs": {
+    "criteria": {
+      "has_prismarine": "2025-06-03 23:34:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_brick_slab": {
+    "criteria": {
+      "has_prismarine_bricks": "2025-06-03 23:34:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_slab": {
+    "criteria": {
+      "has_prismarine": "2025-06-03 23:34:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_candle": {
+    "criteria": {
+      "has_black_dye": "2025-06-03 22:52:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_black_wool": {
+    "criteria": {
+      "has_needed_dye": "2025-06-03 22:52:32 +0000"
     },
     "done": true
   },
