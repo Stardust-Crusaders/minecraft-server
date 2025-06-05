@@ -1425,8 +1425,10 @@
       "minecraft:spider": "2025-04-21 21:48:42 +0000",
       "minecraft:creeper": "2025-04-26 10:37:02 +0000",
       "minecraft:slime": "2025-04-21 22:27:28 +0000",
+      "minecraft:evoker": "2025-06-04 22:51:36 +0000",
       "minecraft:phantom": "2025-04-24 18:26:55 +0000",
       "minecraft:witch": "2025-04-26 19:55:31 +0000",
+      "minecraft:wither_skeleton": "2025-06-04 22:06:38 +0000",
       "minecraft:husk": "2025-04-27 13:07:36 +0000",
       "minecraft:shulker": "2025-05-30 21:09:06 +0000",
       "minecraft:cave_spider": "2025-05-27 22:15:38 +0000",
@@ -1434,6 +1436,7 @@
       "minecraft:silverfish": "2025-04-27 22:37:19 +0000",
       "minecraft:enderman": "2025-05-27 22:28:41 +0000",
       "minecraft:stray": "2025-05-28 21:52:00 +0000",
+      "minecraft:vex": "2025-06-04 22:52:03 +0000",
       "minecraft:zombie": "2025-04-21 22:34:30 +0000",
       "minecraft:drowned": "2025-06-01 11:31:45 +0000",
       "minecraft:zombie_villager": "2025-05-31 23:51:13 +0000"
@@ -7262,9 +7265,21 @@
     },
     "done": true
   },
-  "create:diving_suit": {
+  "create:recipes/combat/crafting/appliances/netherite_backtank": {
     "criteria": {
-      "0": "2025-06-03 23:34:43 +0000"
+      "has_item": "2025-06-03 23:25:14 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/combat/crafting/appliances/netherite_diving_helmet": {
+    "criteria": {
+      "has_item": "2025-06-03 23:25:59 +0000"
+    },
+    "done": true
+  },
+  "create:backtank": {
+    "criteria": {
+      "0": "2025-06-03 23:26:56 +0000"
     },
     "done": true
   },
@@ -7274,75 +7289,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/prismarine_wall_from_prismarine_stonecutting": {
+  "create:diving_suit": {
     "criteria": {
-      "has_prismarine": "2025-06-03 23:40:27 +0000"
-    },
-    "done": true
-  },
-  "create:recipes/misc/crafting/kinetics/portable_fluid_interface": {
-    "criteria": {
-      "has_item": "2025-06-03 23:51:02 +0000"
+      "0": "2025-06-03 23:34:43 +0000"
     },
     "done": true
   },
   "minecraft:recipes/building_blocks/prismarine": {
     "criteria": {
       "has_prismarine_shard": "2025-06-03 23:39:00 +0000"
-    },
-    "done": true
-  },
-  "create:recipes/misc/crafting/kinetics/spout": {
-    "criteria": {
-      "has_item": "2025-06-03 23:51:02 +0000"
-    },
-    "done": true
-  },
-  "create_enchantment_industry:lumen_nexus": {
-    "criteria": {
-      "0": "2025-06-03 23:51:18 +0000"
-    },
-    "done": true
-  },
-  "create_enchantment_industry:recipes/experience_lantern": {
-    "criteria": {
-      "copper": "2025-06-03 23:51:02 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/dark_prismarine_stairs": {
-    "criteria": {
-      "has_dark_prismarine": "2025-06-03 23:41:08 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/sponge": {
-    "criteria": {
-      "has_wet_sponge": "2025-06-03 23:39:46 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/prismarine_brick_stairs": {
-    "criteria": {
-      "has_prismarine_bricks": "2025-06-03 23:41:07 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/prismarine_wall": {
-    "criteria": {
-      "has_prismarine": "2025-06-03 23:40:27 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/prismarine_slab_from_prismarine_stonecutting": {
-    "criteria": {
-      "has_prismarine": "2025-06-03 23:40:27 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/prismarine_brick_slab_from_prismarine_stonecutting": {
-    "criteria": {
-      "has_prismarine_brick": "2025-06-03 23:41:07 +0000"
     },
     "done": true
   },
@@ -7358,15 +7313,27 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/dark_prismarine_slab": {
+  "minecraft:recipes/building_blocks/sponge": {
     "criteria": {
-      "has_dark_prismarine": "2025-06-03 23:41:08 +0000"
+      "has_wet_sponge": "2025-06-03 23:39:46 +0000"
     },
     "done": true
   },
-  "create:backtank": {
+  "minecraft:recipes/decorations/prismarine_wall_from_prismarine_stonecutting": {
     "criteria": {
-      "0": "2025-06-03 23:26:56 +0000"
+      "has_prismarine": "2025-06-03 23:40:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/prismarine_wall": {
+    "criteria": {
+      "has_prismarine": "2025-06-03 23:40:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_slab_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine": "2025-06-03 23:40:27 +0000"
     },
     "done": true
   },
@@ -7376,7 +7343,61 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/prismarine_stairs": {
+    "criteria": {
+      "has_prismarine": "2025-06-03 23:40:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_slab": {
+    "criteria": {
+      "has_prismarine": "2025-06-03 23:40:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_brick_stairs": {
+    "criteria": {
+      "has_prismarine_bricks": "2025-06-03 23:41:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_brick_slab_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine_brick": "2025-06-03 23:41:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_brick_stairs_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine_brick": "2025-06-03 23:41:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_brick_slab": {
+    "criteria": {
+      "has_prismarine_bricks": "2025-06-03 23:41:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_prismarine_stairs": {
+    "criteria": {
+      "has_dark_prismarine": "2025-06-03 23:41:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_prismarine_slab": {
+    "criteria": {
+      "has_dark_prismarine": "2025-06-03 23:41:08 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/dark_prismarine_stairs_from_dark_prismarine_stonecutting": {
+    "criteria": {
+      "has_dark_prismarine": "2025-06-03 23:41:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_prismarine_slab_from_dark_prismarine_stonecutting": {
     "criteria": {
       "has_dark_prismarine": "2025-06-03 23:41:08 +0000"
     },
@@ -7388,63 +7409,123 @@
     },
     "done": true
   },
-  "create:recipes/misc/crafting/kinetics/item_drain": {
-    "criteria": {
-      "has_item": "2025-06-03 23:51:02 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/prismarine_brick_stairs_from_prismarine_stonecutting": {
-    "criteria": {
-      "has_prismarine_brick": "2025-06-03 23:41:07 +0000"
-    },
-    "done": true
-  },
-  "create:recipes/combat/crafting/appliances/netherite_backtank": {
-    "criteria": {
-      "has_item": "2025-06-03 23:25:14 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/prismarine_stairs": {
-    "criteria": {
-      "has_prismarine": "2025-06-03 23:40:27 +0000"
-    },
-    "done": true
-  },
-  "create:recipes/combat/crafting/appliances/netherite_diving_helmet": {
-    "criteria": {
-      "has_item": "2025-06-03 23:25:59 +0000"
-    },
-    "done": true
-  },
   "create:copper_casing": {
     "criteria": {
       "0": "2025-06-03 23:50:47 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/dark_prismarine_slab_from_dark_prismarine_stonecutting": {
+  "create:recipes/misc/crafting/kinetics/portable_fluid_interface": {
     "criteria": {
-      "has_dark_prismarine": "2025-06-03 23:41:08 +0000"
+      "has_item": "2025-06-03 23:51:02 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/prismarine_brick_slab": {
+  "create:recipes/misc/crafting/kinetics/spout": {
     "criteria": {
-      "has_prismarine_bricks": "2025-06-03 23:41:07 +0000"
+      "has_item": "2025-06-03 23:51:02 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/prismarine_slab": {
+  "create_enchantment_industry:recipes/experience_lantern": {
     "criteria": {
-      "has_prismarine": "2025-06-03 23:40:27 +0000"
+      "copper": "2025-06-03 23:51:02 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/item_drain": {
+    "criteria": {
+      "has_item": "2025-06-03 23:51:02 +0000"
     },
     "done": true
   },
   "create:recipes/misc/crafting/kinetics/copper_door": {
     "criteria": {
       "has_item": "2025-06-03 23:51:02 +0000"
+    },
+    "done": true
+  },
+  "create_enchantment_industry:lumen_nexus": {
+    "criteria": {
+      "0": "2025-06-03 23:51:18 +0000"
+    },
+    "done": true
+  },
+  "create_enchantment_industry:a_shower_experience": {
+    "criteria": {
+      "0": "2025-06-04 23:12:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_brick_stairs": {
+    "criteria": {
+      "has_nether_bricks": "2025-06-04 22:05:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_brick_slab": {
+    "criteria": {
+      "has_nether_bricks": "2025-06-04 22:05:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_brick_stairs_from_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_nether_bricks": "2025-06-04 22:05:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/nether_brick_fence": {
+    "criteria": {
+      "has_nether_bricks": "2025-06-04 22:05:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cracked_nether_bricks": {
+    "criteria": {
+      "has_nether_bricks": "2025-06-04 22:05:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/get_wither_skull": {
+    "criteria": {
+      "wither_skull": "2025-06-04 22:06:54 +0000"
+    },
+    "done": true
+  },
+  "create:diving_suit_lava": {
+    "criteria": {
+      "0": "2025-06-04 22:06:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_nether_bricks_from_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_nether_bricks": "2025-06-04 22:05:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/nether_brick_wall_from_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_nether_bricks": "2025-06-04 22:05:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_brick_slab_from_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_nether_bricks": "2025-06-04 22:05:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/nether_brick_wall": {
+    "criteria": {
+      "has_nether_bricks": "2025-06-04 22:05:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/skull_banner_pattern": {
+    "criteria": {
+      "has_wither_skeleton_skull": "2025-06-04 22:06:54 +0000"
     },
     "done": true
   },
