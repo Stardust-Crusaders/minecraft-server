@@ -62,6 +62,7 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:cold_ocean": "2025-04-21 18:43:59 +0000",
+      "minecraft:old_growth_pine_taiga": "2025-06-05 19:21:55 +0000",
       "minecraft:forest": "2025-04-21 18:46:35 +0000",
       "minecraft:taiga": "2025-04-23 23:19:21 +0000",
       "minecraft:deep_ocean": "2025-04-21 22:14:22 +0000",
@@ -71,12 +72,16 @@
       "minecraft:frozen_ocean": "2025-04-23 20:36:34 +0000",
       "minecraft:frozen_river": "2025-04-23 20:32:28 +0000",
       "minecraft:windswept_forest": "2025-04-23 23:47:51 +0000",
+      "minecraft:deep_frozen_ocean": "2025-06-05 19:56:49 +0000",
       "minecraft:ocean": "2025-04-21 18:51:36 +0000",
       "minecraft:jungle": "2025-04-23 22:58:27 +0000",
       "minecraft:sunflower_plains": "2025-04-23 23:52:31 +0000",
+      "minecraft:cherry_grove": "2025-06-05 19:07:21 +0000",
       "minecraft:birch_forest": "2025-04-23 18:50:49 +0000",
+      "minecraft:windswept_hills": "2025-06-05 19:20:39 +0000",
       "minecraft:old_growth_spruce_taiga": "2025-04-29 18:35:33 +0000",
       "minecraft:snowy_beach": "2025-04-23 20:36:32 +0000",
+      "minecraft:bamboo_jungle": "2025-06-05 19:17:58 +0000",
       "minecraft:windswept_savanna": "2025-04-23 23:00:00 +0000",
       "minecraft:deep_lukewarm_ocean": "2025-04-23 23:55:16 +0000",
       "minecraft:flower_forest": "2025-04-23 23:03:45 +0000",
@@ -94,6 +99,7 @@
       "minecraft:grove": "2025-04-23 23:26:30 +0000",
       "minecraft:swamp": "2025-04-23 23:45:43 +0000",
       "minecraft:meadow": "2025-04-23 23:24:11 +0000",
+      "minecraft:windswept_gravelly_hills": "2025-06-05 19:55:18 +0000",
       "minecraft:savanna": "2025-04-23 23:53:00 +0000",
       "minecraft:plains": "2025-04-21 18:44:44 +0000",
       "minecraft:jagged_peaks": "2025-04-23 23:28:25 +0000"
@@ -8608,15 +8614,15 @@
     },
     "done": true
   },
-  "create:water_wheel": {
+  "create:recipes/misc/crafting/kinetics/large_water_wheel": {
     "criteria": {
-      "0": "2025-06-04 21:20:34 +0000"
+      "has_item": "2025-06-04 21:16:30 +0000"
     },
     "done": true
   },
-  "create_enchantment_industry:recipes/misc/smithing/blaze_enchanter": {
+  "create:water_wheel": {
     "criteria": {
-      "has_blaze_burner": "2025-06-04 23:01:31 +0000"
+      "0": "2025-06-04 21:20:34 +0000"
     },
     "done": true
   },
@@ -8626,15 +8632,21 @@
     },
     "done": true
   },
+  "create:diving_suit_lava": {
+    "criteria": {
+      "0": "2025-06-04 22:24:46 +0000"
+    },
+    "done": true
+  },
   "create_dragons_plus:recipes/blaze_upgrade_smithing_template": {
     "criteria": {
       "has_template": "2025-06-04 22:33:30 +0000"
     },
     "done": true
   },
-  "create:recipes/misc/crafting/kinetics/large_water_wheel": {
+  "create_enchantment_industry:recipes/misc/smithing/blaze_enchanter": {
     "criteria": {
-      "has_item": "2025-06-04 21:16:30 +0000"
+      "has_blaze_burner": "2025-06-04 23:01:31 +0000"
     },
     "done": true
   },
@@ -8644,21 +8656,27 @@
     },
     "done": true
   },
-  "create_enchantment_industry:born_talent_of_fire": {
-    "criteria": {
-      "0": "2025-06-04 23:03:39 +0000"
-    },
-    "done": true
-  },
   "create_enchantment_industry:blaze_enchantery": {
     "criteria": {
       "0": "2025-06-04 23:03:35 +0000"
     },
     "done": true
   },
-  "create:diving_suit_lava": {
+  "create_enchantment_industry:born_talent_of_fire": {
     "criteria": {
-      "0": "2025-06-04 22:24:46 +0000"
+      "0": "2025-06-04 23:03:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cherry_planks": {
+    "criteria": {
+      "has_log": "2025-06-05 19:07:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cherry_wood": {
+    "criteria": {
+      "has_log": "2025-06-05 19:07:29 +0000"
     },
     "done": true
   },
