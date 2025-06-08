@@ -8680,5 +8680,17 @@
     },
     "done": true
   },
+  "create:crushing_wheel": {
+    "criteria": {
+      "0": "2025-06-07 11:47:41 +0000"
+    },
+    "done": true
+  },
+  "create:crusher_maxed_0000": {
+    "criteria": {
+      "0": "2025-06-07 11:47:41 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3955
 }
