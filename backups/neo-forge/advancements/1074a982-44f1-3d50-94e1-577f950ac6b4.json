@@ -8733,5 +8733,155 @@
     },
     "done": true
   },
+  "create:recipes/misc/crafting/kinetics/light_gray_valve_handle_from_other_valve_handle": {
+    "criteria": {
+      "has_valve": "2025-06-08 15:24:23 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/brown_valve_handle_from_other_valve_handle": {
+    "criteria": {
+      "has_valve": "2025-06-08 15:24:23 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/black_valve_handle_from_other_valve_handle": {
+    "criteria": {
+      "has_valve": "2025-06-08 15:24:23 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/blue_valve_handle_from_other_valve_handle": {
+    "criteria": {
+      "has_valve": "2025-06-08 15:24:23 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/green_valve_handle_from_other_valve_handle": {
+    "criteria": {
+      "has_valve": "2025-06-08 15:24:23 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/yellow_valve_handle_from_other_valve_handle": {
+    "criteria": {
+      "has_valve": "2025-06-08 15:24:23 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/light_blue_valve_handle_from_other_valve_handle": {
+    "criteria": {
+      "has_valve": "2025-06-08 15:24:23 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/red_valve_handle_from_other_valve_handle": {
+    "criteria": {
+      "has_valve": "2025-06-08 15:24:23 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/magenta_valve_handle_from_other_valve_handle": {
+    "criteria": {
+      "has_valve": "2025-06-08 15:24:23 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/cyan_valve_handle_from_other_valve_handle": {
+    "criteria": {
+      "has_valve": "2025-06-08 15:24:23 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/lime_valve_handle_from_other_valve_handle": {
+    "criteria": {
+      "has_valve": "2025-06-08 15:24:23 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/white_valve_handle_from_other_valve_handle": {
+    "criteria": {
+      "has_valve": "2025-06-08 15:24:23 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/orange_valve_handle_from_other_valve_handle": {
+    "criteria": {
+      "has_valve": "2025-06-08 15:24:23 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/gray_valve_handle_from_other_valve_handle": {
+    "criteria": {
+      "has_valve": "2025-06-08 15:24:23 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/purple_valve_handle_from_other_valve_handle": {
+    "criteria": {
+      "has_valve": "2025-06-08 15:24:23 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/pink_valve_handle_from_other_valve_handle": {
+    "criteria": {
+      "has_valve": "2025-06-08 15:24:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_oxidized_copper_trapdoor_from_honeycomb": {
+    "criteria": {
+      "has_oxidized_copper_trapdoor": "2025-06-08 17:01:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/gray_candle": {
+    "criteria": {
+      "has_gray_dye": "2025-06-08 17:28:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/gray_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_gray_dye": "2025-06-08 17:28:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_gray_carpet": {
+    "criteria": {
+      "has_needed_dye": "2025-06-08 17:28:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_gray_wool": {
+    "criteria": {
+      "has_needed_dye": "2025-06-08 17:28:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_gray_bed": {
+    "criteria": {
+      "has_needed_dye": "2025-06-08 17:28:00 +0000"
+    },
+    "done": true
+  },
+  "create:train_casing_00": {
+    "criteria": {
+      "0": "2025-06-08 20:02:18 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/appliances/schedule_clear": {
+    "criteria": {
+      "has_item": "2025-06-09 19:53:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/map": {
+    "criteria": {
+      "has_compass": "2025-06-09 19:53:10 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3955
 }

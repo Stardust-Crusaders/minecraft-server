@@ -8692,5 +8692,53 @@
     },
     "done": true
   },
+  "create_enchantment_industry:blazing_fusion": {
+    "criteria": {
+      "0": "2025-06-08 11:48:45 +0000"
+    },
+    "done": true
+  },
+  "create_enchantment_industry:transcendent_overclock": {
+    "criteria": {
+      "0": "2025-06-08 11:55:22 +0000"
+    },
+    "done": true
+  },
+  "create_enchantment_industry:lightning_catalysis": {
+    "criteria": {
+      "0": "2025-06-08 12:12:36 +0000"
+    },
+    "done": true
+  },
+  "create_enchantment_industry:blazing_enchantment": {
+    "criteria": {
+      "0": "2025-06-08 12:25:02 +0000"
+    },
+    "done": true
+  },
+  "create_enchantment_industry:probability_spike": {
+    "criteria": {
+      "0": "2025-06-08 12:27:09 +0000"
+    },
+    "done": true
+  },
+  "create_enchantment_industry:sigil_casting": {
+    "criteria": {
+      "0": "2025-06-08 12:32:21 +0000"
+    },
+    "done": true
+  },
+  "create_enchantment_industry:sigil_forging": {
+    "criteria": {
+      "0": "2025-06-08 12:36:02 +0000"
+    },
+    "done": true
+  },
+  "create_enchantment_industry:paradox_fusion": {
+    "criteria": {
+      "0": "2025-06-08 12:43:40 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3955
 }

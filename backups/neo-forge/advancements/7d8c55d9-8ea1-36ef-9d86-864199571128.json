@@ -6802,6 +6802,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/red_dye_from_beetroot": {
+    "criteria": {
+      "has_beetroot": "2025-06-02 02:16:05 +0000"
+    },
+    "done": true
+  },
   "create:recipes/misc/smelting/glass_from_framed_glass": {
     "criteria": {
       "has_item": "2025-06-02 02:35:03 +0000"
@@ -6814,12 +6820,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/red_dye_from_beetroot": {
-    "criteria": {
-      "has_beetroot": "2025-06-02 02:16:05 +0000"
-    },
-    "done": true
-  },
   "create:recipes/misc/crafting/kinetics/framed_glass_door": {
     "criteria": {
       "has_item": "2025-06-02 02:35:03 +0000"
@@ -6829,6 +6829,114 @@
   "create:recipes/building_blocks/framed_glass_pane": {
     "criteria": {
       "has_ingredient": "2025-06-02 02:35:03 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/light_gray_valve_handle_from_other_valve_handle": {
+    "criteria": {
+      "has_valve": "2025-06-08 19:50:17 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/brown_valve_handle_from_other_valve_handle": {
+    "criteria": {
+      "has_valve": "2025-06-08 19:50:17 +0000"
+    },
+    "done": true
+  },
+  "create:potato_cannon": {
+    "criteria": {
+      "0": "2025-06-08 20:07:48 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/black_valve_handle_from_other_valve_handle": {
+    "criteria": {
+      "has_valve": "2025-06-08 19:50:17 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/blue_valve_handle_from_other_valve_handle": {
+    "criteria": {
+      "has_valve": "2025-06-08 19:50:17 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/green_valve_handle_from_other_valve_handle": {
+    "criteria": {
+      "has_valve": "2025-06-08 19:50:17 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/yellow_valve_handle_from_other_valve_handle": {
+    "criteria": {
+      "has_valve": "2025-06-08 19:50:17 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/light_blue_valve_handle_from_other_valve_handle": {
+    "criteria": {
+      "has_valve": "2025-06-08 19:50:17 +0000"
+    },
+    "done": true
+  },
+  "create_enchantment_industry:root": {
+    "criteria": {
+      "0": "2025-06-08 19:46:06 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/red_valve_handle_from_other_valve_handle": {
+    "criteria": {
+      "has_valve": "2025-06-08 19:50:17 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/magenta_valve_handle_from_other_valve_handle": {
+    "criteria": {
+      "has_valve": "2025-06-08 19:50:17 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/cyan_valve_handle_from_other_valve_handle": {
+    "criteria": {
+      "has_valve": "2025-06-08 19:50:17 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/lime_valve_handle_from_other_valve_handle": {
+    "criteria": {
+      "has_valve": "2025-06-08 19:50:17 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/white_valve_handle_from_other_valve_handle": {
+    "criteria": {
+      "has_valve": "2025-06-08 19:50:17 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/orange_valve_handle_from_other_valve_handle": {
+    "criteria": {
+      "has_valve": "2025-06-08 19:50:17 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/gray_valve_handle_from_other_valve_handle": {
+    "criteria": {
+      "has_valve": "2025-06-08 19:50:17 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/purple_valve_handle_from_other_valve_handle": {
+    "criteria": {
+      "has_valve": "2025-06-08 19:50:17 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/pink_valve_handle_from_other_valve_handle": {
+    "criteria": {
+      "has_valve": "2025-06-08 19:50:17 +0000"
     },
     "done": true
   },
