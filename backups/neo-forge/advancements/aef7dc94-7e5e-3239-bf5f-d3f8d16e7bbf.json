@@ -8740,5 +8740,29 @@
     },
     "done": true
   },
+  "create_enchantment_industry:magic_unbinding": {
+    "criteria": {
+      "0": "2025-06-10 19:38:30 +0000"
+    },
+    "done": true
+  },
+  "create_enchantment_industry:omni_enchanter": {
+    "criteria": {
+      "0": "2025-06-10 20:19:48 +0000"
+    },
+    "done": true
+  },
+  "create_enchantment_industry:gone_with_the_foil": {
+    "criteria": {
+      "0": "2025-06-10 20:51:40 +0000"
+    },
+    "done": true
+  },
+  "create_enchantment_industry:a_shower_experience": {
+    "criteria": {
+      "0": "2025-06-11 21:37:51 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3955
 }

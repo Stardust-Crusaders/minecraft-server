@@ -822,7 +822,8 @@
       "apple": "2025-04-19 16:54:22 +0000",
       "cooked_rabbit": "2025-06-01 14:34:52 +0000",
       "cooked_chicken": "2025-04-21 22:42:34 +0000",
-      "enchanted_golden_apple": "2025-05-28 22:15:21 +0000"
+      "enchanted_golden_apple": "2025-05-28 22:15:21 +0000",
+      "carrot": "2025-06-10 21:29:06 +0000"
     },
     "done": false
   },
@@ -7301,7 +7302,8 @@
   },
   "minecraft:husbandry/bred_all_animals": {
     "criteria": {
-      "minecraft:cow": "2025-05-28 22:45:00 +0000"
+      "minecraft:cow": "2025-05-28 22:45:00 +0000",
+      "minecraft:pig": "2025-06-10 21:30:00 +0000"
     },
     "done": false
   },
@@ -8880,6 +8882,36 @@
   "minecraft:recipes/misc/map": {
     "criteria": {
       "has_compass": "2025-06-09 19:53:10 +0000"
+    },
+    "done": true
+  },
+  "create:steam_whistle": {
+    "criteria": {
+      "0": "2025-06-10 17:22:45 +0000"
+    },
+    "done": true
+  },
+  "create:train": {
+    "criteria": {
+      "0": "2025-06-10 18:38:41 +0000"
+    },
+    "done": true
+  },
+  "create_enchantment_industry:a_shower_experience": {
+    "criteria": {
+      "0": "2025-06-10 20:52:41 +0000"
+    },
+    "done": true
+  },
+  "create_enchantment_industry:lightning_catalysis": {
+    "criteria": {
+      "0": "2025-06-10 20:27:33 +0000"
+    },
+    "done": true
+  },
+  "create:conductor": {
+    "criteria": {
+      "0": "2025-06-10 20:00:35 +0000"
     },
     "done": true
   },
