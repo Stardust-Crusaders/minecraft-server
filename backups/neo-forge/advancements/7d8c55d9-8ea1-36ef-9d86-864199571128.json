@@ -6832,6 +6832,12 @@
     },
     "done": true
   },
+  "create_enchantment_industry:root": {
+    "criteria": {
+      "0": "2025-06-08 19:46:06 +0000"
+    },
+    "done": true
+  },
   "create:recipes/misc/crafting/kinetics/light_gray_valve_handle_from_other_valve_handle": {
     "criteria": {
       "has_valve": "2025-06-08 19:50:17 +0000"
@@ -6841,12 +6847,6 @@
   "create:recipes/misc/crafting/kinetics/brown_valve_handle_from_other_valve_handle": {
     "criteria": {
       "has_valve": "2025-06-08 19:50:17 +0000"
-    },
-    "done": true
-  },
-  "create:potato_cannon": {
-    "criteria": {
-      "0": "2025-06-08 20:07:48 +0000"
     },
     "done": true
   },
@@ -6877,12 +6877,6 @@
   "create:recipes/misc/crafting/kinetics/light_blue_valve_handle_from_other_valve_handle": {
     "criteria": {
       "has_valve": "2025-06-08 19:50:17 +0000"
-    },
-    "done": true
-  },
-  "create_enchantment_industry:root": {
-    "criteria": {
-      "0": "2025-06-08 19:46:06 +0000"
     },
     "done": true
   },
@@ -6937,6 +6931,12 @@
   "create:recipes/misc/crafting/kinetics/pink_valve_handle_from_other_valve_handle": {
     "criteria": {
       "has_valve": "2025-06-08 19:50:17 +0000"
+    },
+    "done": true
+  },
+  "create:potato_cannon": {
+    "criteria": {
+      "0": "2025-06-08 20:07:48 +0000"
     },
     "done": true
   },
