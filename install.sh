@@ -1,3 +1,5 @@
-wget https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.208/neoforge-21.1.208-installer.jar
-java -jar ./neoforge-21.1.208-installer.jar ./server
+mkdir ./server
 ln -s $(pwd)/mods $(pwd)/server
+wget https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.213/neoforge-21.1.213-installer.jar -O ./server/installer.jar
+cd ./server
+java -jar ./installer.jar
